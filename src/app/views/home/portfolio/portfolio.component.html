@@ -1,0 +1,58 @@
+<section
+  id="portfolio-section"
+  class="portfolio home-section"
+  [ngClass]="{'light-gray': backgroundGray}"
+>
+  <div class="container">
+    <div class="section-header">
+      <h2>Unsere Leistungen</h2>
+    </div>
+
+    <div
+      fxLayout="row"
+      fxLayout.lt-sm="column"
+      fxLayoutWrap="nowrap"
+      fxLayoutGap="30px"
+    >
+      <div fxFlex="33.33">
+        <mat-card class="p-0 m-0">
+          <img mat-card-image src="assets/images/handy_reparatur.webp" />
+          <mat-card-content>
+            <h5>
+              <strong><a href="">HANDY REPARATUR</a></strong>
+            </h5>
+            <p>
+              {{handy_reparatur_intro}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div fxFlex="33.33">
+        <mat-card class="p-0 m-0">
+          <img mat-card-image src="assets/images/microsoldering.webp" />
+          <mat-card-content>
+            <h5>
+              <strong><a href="">MICROSOLDERING</a></strong>
+            </h5>
+            <p>
+              {{microsoldering_intro}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div fxFlex="33.33">
+        <mat-card class="p-0 m-0">
+          <img mat-card-image src="assets/images/data_rescue.webp" />
+          <mat-card-content>
+            <h5>
+              <strong><a href="">DATA RESCUE</a></strong>
+            </h5>
+            <p>
+              {{data_rescue_intro}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>

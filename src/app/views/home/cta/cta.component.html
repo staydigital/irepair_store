@@ -1,13 +1,47 @@
-<section class="home-section home-cta">
+<section class="home-section home-cta" id="data-rescue-section">
   <div class="container">
-    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutWrap="nowrap" fxLayoutGap="20px">
-      <div fxFlex="66.666">
-        <h2>Egret Is A Complete UI Framework For Angular</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam, illum et quis officiis beatae.</p>
+    <div class="section-header">
+      <h2>Datensicherung nach einem Wasserschaden</h2>
+      <p [innerHTML]="text1"></p>
+    </div>
+    <div
+      fxLayout="row"
+      fxLayout.lt-md="column"
+      fxLayoutWrap="nowrap"
+      fxLayoutGap="20px"
+    >
+      <div fxFlex="50">
+        <img
+          mat-card-image
+          scrollTo="testimonials-section"
+          src="assets/images/Digitale Social Media.webp"
+          style="border-radius: 50%;"
+        />
       </div>
-      <div fxFlex="33.333" fxLayoutAlign="center center">
-        <button mat-raised-button mat-lg-button color="accent" (click)="buyEgret()">BUY EGRET NOW</button>
+      <div fxFlex="50">
+        <mat-card class="p-0 m-0">
+          <mat-card-content>
+            <h5>
+              <strong>Streng Vertraulich</strong>
+            </h5>
+            <p [innerHTML]="text2"></p>
+            <button mat-raised-button class="mat-accent">
+              Datenschutz
+            </button>
+          </mat-card-content>
+        </mat-card>
       </div>
+    </div>
+    <div
+      fxLayout="column"
+      fxLayout.lt-md="column"
+      fxLayoutWrap="nowrap"
+      fxLayoutGap="20px"
+    >
+      <h5>
+        <strong>Data rescue</strong>
+      </h5>
+      <p [innerHTML]="text3"></p>
     </div>
   </div>
 </section>

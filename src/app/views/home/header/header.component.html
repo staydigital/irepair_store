@@ -7,24 +7,19 @@
       fxLayoutWrap="wrap"
       fxLayoutAlign="start center"
     >
-      <!--
-    <div class="home-logo mr-1">
-        <a href="/"
-          ><img src="assets/images/logo-full.png" alt="Egret logo"
-        /></a>
-      </div>
-      <button mat-icon-button id="menu-toggle" (click)="toggleMenu()">
-        <mat-icon>menu</mat-icon>
-      </button>
-    </div>
-    -->
       <div class="home-logo mr-1">
-        <a href="/"
-          ><img
-            src="assets/images/iRepair.webp"
-            alt="Egret logo"
-            style="max-width: 125px;"
-        /></a>
+        <img
+          src="assets/images/iRepair.webp"
+          alt="Egret logo"
+          style="max-width: 125px;"
+          scrollTo="portfolio-section"
+        />
+        <img
+          src="assets/images/regensburg1.webp"
+          alt="Egret logo"
+          style="max-width: 125px;"
+          scrollTo="portfolio-section"
+        />
       </div>
       <button mat-icon-button id="menu-toggle" (click)="toggleMenu()">
         <mat-icon>menu</mat-icon>
@@ -35,7 +30,7 @@
         mat-button
         id="dashboard-topbtn"
         class="hometop-btn"
-        [routerLink]="'/home/demos'"
+        scrollTo="service-section"
       >
         <strong>iRepairs</strong>
       </button>
@@ -43,7 +38,7 @@
         mat-button
         id="dashboard-topbtn"
         class="hometop-btn"
-        scrollTo="portfolio-section"
+        scrollTo="testimonials-section"
       >
         <strong>Microsoldering</strong>
       </button>
@@ -51,7 +46,7 @@
         mat-button
         id="dashboard-topbtn"
         class="hometop-btn"
-        scrollTo="service-section"
+        scrollTo="data-rescue-section"
       >
         <strong>Data Rescue</strong>
       </button>

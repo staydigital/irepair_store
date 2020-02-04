@@ -16,40 +16,46 @@
     >
       <div fxFlex="33.33">
         <mat-card class="p-0 m-0">
-          <img mat-card-image src="assets/images/handy_reparatur.webp" />
+          <img
+            mat-card-image
+            scrollTo="service-section"
+            src="assets/images/handy_reparatur.webp"
+          />
           <mat-card-content>
             <h5>
               <strong><a href="">HANDY REPARATUR</a></strong>
             </h5>
-            <p>
-              {{handy_reparatur_intro}}
-            </p>
+            <p [innerHTML]="handy_reparatur_intro"></p>
           </mat-card-content>
         </mat-card>
       </div>
       <div fxFlex="33.33">
         <mat-card class="p-0 m-0">
-          <img mat-card-image src="assets/images/microsoldering.webp" />
+          <img
+            mat-card-image
+            scrollTo="testimonials-section"
+            src="assets/images/microsoldering.webp"
+          />
           <mat-card-content>
             <h5>
               <strong><a href="">MICROSOLDERING</a></strong>
             </h5>
-            <p>
-              {{microsoldering_intro}}
-            </p>
+            <p [innerHTML]="microsoldering_intro"></p>
           </mat-card-content>
         </mat-card>
       </div>
       <div fxFlex="33.33">
         <mat-card class="p-0 m-0">
-          <img mat-card-image src="assets/images/data_rescue.webp" />
+          <img
+            mat-card-image
+            src="assets/images/data_rescue.webp"
+            scrollTo="data-rescue-section"
+          />
           <mat-card-content>
             <h5>
               <strong><a href="">DATA RESCUE</a></strong>
             </h5>
-            <p>
-              {{data_rescue_intro}}
-            </p>
+            <p [innerHTML]="data_rescue_intro"></p>
           </mat-card-content>
         </mat-card>
       </div>

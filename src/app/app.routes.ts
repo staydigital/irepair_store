@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router'
+import { HomeOneComponent } from './views/home/home-one.component'
 
 export const rootRouterConfig: Routes = [
   {
     path: '',
-    redirectTo: 'home/demos',
-    pathMatch: 'full'
+    component: HomeOneComponent
   },
   {
     path: 'home',

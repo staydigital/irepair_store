@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
+import { ResourceLoaderService } from 'app/shared/services/resource-loader/resource-loader.service'
 
 @Component({
   selector: 'app-cta',
@@ -6,13 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cta.component.scss']
 })
 export class CtaComponent implements OnInit {
+  text1: string
+  text2: string
+  text3: string
+  constructor (private resourceLoaderService: ResourceLoaderService) {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-  
-  buyEgret() {
-    window.open('https://themeforest.net/item/egret-angular-4-material-design-admin-template/20161805?ref=mh_rafi');
+  ngOnInit () {
+    this.text1 = this.resourceLoaderService.getValue('data_rescue_text1')
+    this.text2 = this.resourceLoaderService.getValue('data_rescue_text2')
+    this.text3 = this.resourceLoaderService.getValue('data_rescue_text3')
   }
 }

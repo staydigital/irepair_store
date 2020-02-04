@@ -4,15 +4,12 @@ import text_resources from '../../../../assets/text_resources.json'
   providedIn: 'root'
 })
 export class ResourceLoaderService {
-  constructor () {
-    console.log(text_resources)
-  }
+  constructor () {}
 
   getValue (key: string): string {
     let value = text_resources[key]
     if (Array.isArray(value)) {
-      console.log('TEST')
-      return value.join('\r\n')
+      return value.join('<br/>')
     }
     return value
   }

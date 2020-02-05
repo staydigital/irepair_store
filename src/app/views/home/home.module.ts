@@ -44,6 +44,7 @@ import { SharedDirectivesModule } from 'app/shared/directives/shared-directives.
 import { SharedComponentsModule } from 'app/shared/components/shared-components.module'
 import { ResourceLoaderService } from 'app/shared/services/resource-loader/resource-loader.service';
 import { ReparaturauftragComponent } from './reparaturauftrag/reparaturauftrag.component'
+import { NgcCookieConsentModule } from 'ngx-cookieconsent';
 
 @NgModule({
   imports: [
@@ -56,7 +57,8 @@ import { ReparaturauftragComponent } from './reparaturauftrag/reparaturauftrag.c
     SharedMaterialModule,
     FlexLayoutModule,
     NguCarouselModule,
-    RouterModule.forChild(HomeRoutes)
+    RouterModule.forChild(HomeRoutes),
+    NgcCookieConsentModule
   ],
   declarations: [
     HomeOneComponent,

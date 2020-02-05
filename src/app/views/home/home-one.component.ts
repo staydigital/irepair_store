@@ -9,8 +9,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core'
       <app-services></app-services>
       <app-testimonials-carousel></app-testimonials-carousel>
       <app-cta></app-cta>
-      <app-pricings></app-pricings>
-      <app-contact [backgroundGray]="true"></app-contact>
+      <app-reparaturauftrag></app-reparaturauftrag>
       <app-footer></app-footer>
     </div>
   `

@@ -125,5 +125,14 @@
     "nicht gestoppt werden. Sie kann das betroffene Gerät innerhalb weniger Stunden oder nach mehreren Wochen erneut zum erliegen bringen.",
     "Deshalb kann man hier nicht von einer Reparatur sprechen und es kann von uns auch keine Gewährleistung auf das \"instandgesetzte\" Gerät geben werden.",
     "Unsere Leistung bezieht sich in diesem Fall ausdrücklich auf einen Data-Rescue-Job!"
+  ],
+  "reparaturauftrag_text1": [
+    "Füllen Sie den Reparaturschein der unten zum Download bereit steht komplett aus und legen Sie diesen zusammen mit Ihren defekten Gerät in ein",
+    "Paket, welches Sie direkt versichert an uns senden. <strong>Der versicherte Rückversand mit DHL ist für Sie kostenlos.</strong>"
+  ],
+  "reparaturauftrag_text2": [
+    "Sobald das Gerät bei uns eintrifft, wird es einer sorgfältigen Diagnose unterzogen. Im Anschluss erhalten Sie ein Angebot mit den tatsächlichen",
+    "Reparaturkosten per Email. Dann entscheiden Sie, ob der Defekt durch uns behoben werden soll oder nicht. Sollten Sie sich gegen eine Reparatur von",
+    "uns entscheiden, senden wir Ihnen Ihr Gerät mit einer Aufwandspauschale in Höhe von 25 Euro umgehend zurück."
   ]
 }

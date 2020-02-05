@@ -1,0 +1,45 @@
+<section
+  id="reparaturauftrag-section"
+  class="home-section"
+  [ngClass]="{'light-gray': backgroundGray}"
+>
+  <div class="container">
+    <div class="section-header">
+      <h2>Sie wissen nicht was an Ihrem Gerät defekt ist?</h2>
+    </div>
+
+    <div
+      fxLayout="row"
+      fxLayout.lt-md="column"
+      fxLayoutWrap="nowrap"
+      fxLayoutGap="10px"
+    >
+      <p [innerHTML]="text1"></p>
+    </div>
+
+    <div
+      fxLayout="row"
+      fxLayout.lt-md="column"
+      fxLayoutWrap="nowrap"
+      fxLayoutGap="10px"
+    >
+      <p [innerHTML]="text2"></p>
+    </div>
+    <div
+      fxLayout="row"
+      fxLayout.lt-md="column"
+      fxLayoutWrap="nowrap"
+      fxLayoutGap="10px"
+      style="padding-bottom: 15px;"
+    >
+      <button mat-raised-button class="mat-accent">
+        <a
+          download="reparaturauftrag.pdf"
+          href="assets/pdf/reparaturauftrag.pdf"
+          target="_blank"
+          >Reparaturschein</a
+        >
+      </button>
+    </div>
+  </div>
+</section>

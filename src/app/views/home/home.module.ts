@@ -42,7 +42,8 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper'
 import { SharedMaterialModule } from 'app/shared/shared-material.module'
 import { SharedDirectivesModule } from 'app/shared/directives/shared-directives.module'
 import { SharedComponentsModule } from 'app/shared/components/shared-components.module'
-import { ResourceLoaderService } from 'app/shared/services/resource-loader/resource-loader.service'
+import { ResourceLoaderService } from 'app/shared/services/resource-loader/resource-loader.service';
+import { ReparaturauftragComponent } from './reparaturauftrag/reparaturauftrag.component'
 
 @NgModule({
   imports: [
@@ -74,7 +75,8 @@ import { ResourceLoaderService } from 'app/shared/services/resource-loader/resou
     TestimonialsCarouselComponent,
     ServicesCarouselComponent,
     DemoComponent,
-    AllSectionsComponent
+    AllSectionsComponent,
+    ReparaturauftragComponent
   ],
   providers: [WINDOW_PROVIDERS, ResourceLoaderService]
 })

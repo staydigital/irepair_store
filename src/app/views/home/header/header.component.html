@@ -25,7 +25,7 @@
         <mat-icon>menu</mat-icon>
       </button>
     </div>
-    <div fxFlex class="top-menu">
+    <div *ngIf="isLandingPage" fxFlex class="top-menu">
       <button
         mat-button
         id="dashboard-topbtn"

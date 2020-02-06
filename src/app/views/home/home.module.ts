@@ -42,10 +42,13 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper'
 import { SharedMaterialModule } from 'app/shared/shared-material.module'
 import { SharedDirectivesModule } from 'app/shared/directives/shared-directives.module'
 import { SharedComponentsModule } from 'app/shared/components/shared-components.module'
-import { ResourceLoaderService } from 'app/shared/services/resource-loader/resource-loader.service';
+import { ResourceLoaderService } from 'app/shared/services/resource-loader/resource-loader.service'
 import { ReparaturauftragComponent } from './reparaturauftrag/reparaturauftrag.component'
-import { NgcCookieConsentModule } from 'ngx-cookieconsent';
-
+import { NgcCookieConsentModule } from 'ngx-cookieconsent'
+import { DatenschutzComponent } from './datenschutz/datenschutz.component'
+import { ImpressumComponent } from '../impressum/impressum.component'
+import { YouTubePlayerModule } from '@angular/youtube-player'
+import { VideoComponent } from '../video/video.component'
 @NgModule({
   imports: [
     CommonModule,
@@ -58,7 +61,8 @@ import { NgcCookieConsentModule } from 'ngx-cookieconsent';
     FlexLayoutModule,
     NguCarouselModule,
     RouterModule.forChild(HomeRoutes),
-    NgcCookieConsentModule
+    NgcCookieConsentModule,
+    YouTubePlayerModule
   ],
   declarations: [
     HomeOneComponent,
@@ -78,7 +82,10 @@ import { NgcCookieConsentModule } from 'ngx-cookieconsent';
     ServicesCarouselComponent,
     DemoComponent,
     AllSectionsComponent,
-    ReparaturauftragComponent
+    ReparaturauftragComponent,
+    DatenschutzComponent,
+    ImpressumComponent,
+    VideoComponent
   ],
   providers: [WINDOW_PROVIDERS, ResourceLoaderService]
 })

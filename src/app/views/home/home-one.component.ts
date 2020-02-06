@@ -4,7 +4,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core'
   selector: 'app-home-one',
   template: `
     <div class="landing">
-      <app-header></app-header>
+      <app-header isLandingPage="true"></app-header>
       <app-portfolio></app-portfolio>
       <app-services></app-services>
       <app-testimonials-carousel></app-testimonials-carousel>

@@ -14,10 +14,10 @@
       fxLayoutWrap="nowrap"
       fxLayoutGap="20px"
     >
-      <div fxFlex="70">
+      <div fxFlex="70" fxLayoutAlign="center center">
         <img
-          src="assets/images/microsoldering2.webp"
-          style="border-radius: 50%;"
+          src="assets/images/microsoldering_new2.jpg"
+          style="max-height: 100%; border-radius: 50%;"
         />
       </div>
       <div fxFlex="30">
@@ -41,7 +41,7 @@
       fxLayoutGap="20px"
       fxLayoutAlign="center center"
     >
-      <div fxFlex="35">
+      <div fxFlex="100">
         <ngu-carousel [inputs]="carouselOptions" [dataSource]="testimonials">
           <ngu-item NguCarouselItem *nguCarouselDef="let tm; let j = index">
             <img class="company-logo" [src]="tm.logo" />

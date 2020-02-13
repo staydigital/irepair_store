@@ -11,8 +11,13 @@ import { SharedDirectivesModule } from '../directives/shared-directives.module'
 import { AppLoaderComponent } from '../services/app-loader/app-loader.component'
 
 import { BottomSheetShareComponent } from './bottom-sheet-share/bottom-sheet-share.component'
+import { VideoPlayerComponent } from './video-player/video-player.component'
 
-const components = [AppLoaderComponent, BottomSheetShareComponent]
+const components = [
+  AppLoaderComponent,
+  BottomSheetShareComponent,
+  VideoPlayerComponent
+]
 
 @NgModule({
   imports: [
@@ -26,7 +31,11 @@ const components = [AppLoaderComponent, BottomSheetShareComponent]
     SharedMaterialModule
   ],
   declarations: components,
-  entryComponents: [AppLoaderComponent, BottomSheetShareComponent],
+  entryComponents: [
+    AppLoaderComponent,
+    BottomSheetShareComponent,
+    VideoPlayerComponent
+  ],
   exports: components
 })
 export class SharedComponentsModule {}

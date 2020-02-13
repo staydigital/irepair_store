@@ -2,18 +2,7 @@ import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
-import {
-  MatIconModule,
-  MatCardModule,
-  MatMenuModule,
-  MatButtonModule,
-  MatChipsModule,
-  MatListModule,
-  MatInputModule,
-  MatRippleModule,
-  MatSlideToggleModule,
-  MatSnackBarModule
-} from '@angular/material'
+
 import { FlexLayoutModule } from '@angular/flex-layout'
 import { NguCarouselModule } from '@ngu/carousel'
 import { SharedModule } from '../../shared/shared.module'
@@ -47,8 +36,7 @@ import { ReparaturauftragComponent } from './reparaturauftrag/reparaturauftrag.c
 import { NgcCookieConsentModule } from 'ngx-cookieconsent'
 import { DatenschutzComponent } from './datenschutz/datenschutz.component'
 import { ImpressumComponent } from '../impressum/impressum.component'
-import { YouTubePlayerModule } from '@angular/youtube-player'
-import { VideoComponent } from '../video/video.component'
+
 @NgModule({
   imports: [
     CommonModule,
@@ -61,8 +49,7 @@ import { VideoComponent } from '../video/video.component'
     FlexLayoutModule,
     NguCarouselModule,
     RouterModule.forChild(HomeRoutes),
-    NgcCookieConsentModule,
-    YouTubePlayerModule
+    NgcCookieConsentModule
   ],
   declarations: [
     HomeOneComponent,
@@ -84,8 +71,7 @@ import { VideoComponent } from '../video/video.component'
     AllSectionsComponent,
     ReparaturauftragComponent,
     DatenschutzComponent,
-    ImpressumComponent,
-    VideoComponent
+    ImpressumComponent
   ],
   providers: [WINDOW_PROVIDERS, ResourceLoaderService]
 })

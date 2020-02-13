@@ -4,18 +4,18 @@
       <div fxLayout="row" fxLayout.lt-md="column" fxLayoutWrap="nowrap">
         <div fxFlex="33" class="footer-box">
           <h4 class="footer-box-title"><b>iRepair-Regensburg​</b></h4>
-          <h5 matLine>© 2020 BY Meißner Marius</h5>
+          <h5 matLine>© {{getYear()}} BY Meißner Marius</h5>
         </div>
         <div fxFlex="33" class="footer-box">
           <h4 class="footer-box-title"><b>Kontakt</b></h4>
           <mat-list>
             <mat-list-item>
-              <mat-icon mat-list-icon color="accent">email</mat-icon>
+              <mat-icon mat-list-icon color="primary">email</mat-icon>
               <h5 matLine><b>Email</b></h5>
               <p matLine>info@irepair-regensburg.de</p>
             </mat-list-item>
             <mat-list-item>
-              <mat-icon mat-list-icon color="accent">location_on</mat-icon>
+              <mat-icon mat-list-icon color="primary">location_on</mat-icon>
               <h5 matLine><b>Addresse</b></h5>
               <p matLine>Josef-Geller-Straße 13</p>
               <p matLine>93152 Nittendorf</p>
@@ -32,9 +32,27 @@
 
           <div class="socials pt-1">
             <ul>
-              <li><a href="" class="social-icon linkedin"></a></li>
-              <li><a href="" class="social-icon twitter"></a></li>
-              <li><a href="" class="social-icon facebook"></a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/IREPAIRREGENSBURG/"
+                  class="social-icon facebook"
+                  target="_blank"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/irepairregensburg/"
+                  class="social-icon instagram"
+                  target="_blank"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UC8ukd98bLffRrdVumyw6u2g"
+                  class="social-icon youtube"
+                  target="_blank"
+                ></a>
+              </li>
             </ul>
           </div>
         </div>

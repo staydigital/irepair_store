@@ -45,8 +45,8 @@ export class TestimonialsCarouselComponent implements OnInit {
     this.text1 = this.resourceLoaderService.getValue('microsoldering_text1')
     this.text2 = this.resourceLoaderService.getValue('microsoldering_text2')
     this.carouselOptions = {
-      grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
-      slide: 1,
+      grid: { xs: 1, sm: 1, md: 3, lg: 3, all: 0 },
+      slide: 3,
       speed: 400,
       interval: { timing: 4000 },
       point: {

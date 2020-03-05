@@ -5,7 +5,7 @@ import { ImpressumComponent } from './views/impressum/impressum.component'
 
 export const rootRouterConfig: Routes = [
   {
-    path: 'irepair_store',
+    path: '',
     component: HomeOneComponent
   },
   {

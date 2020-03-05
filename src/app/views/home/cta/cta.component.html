@@ -14,7 +14,7 @@
         <img
           mat-card-image
           scrollTo="testimonials-section"
-          src="assets/images/Digitale Social Media.webp"
+          src="assets/images/Digitale Social Media.jpg"
           style="border-radius: 50%;"
         />
       </div>
@@ -27,9 +27,11 @@
               <strong>Streng Vertraulich</strong>
             </h5>
             <p [innerHTML]="text2"></p>
-            <button mat-raised-button class="mat-accent">
-              Datenschutz
-            </button>
+            <a routerLink="/datenschutz" target="_blank">
+              <button mat-raised-button class="mat-accent">
+                Datenschutz
+              </button>
+            </a>
           </mat-card-content>
         </mat-card>
       </div>

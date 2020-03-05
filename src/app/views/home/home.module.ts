@@ -36,6 +36,7 @@ import { ReparaturauftragComponent } from './reparaturauftrag/reparaturauftrag.c
 import { NgcCookieConsentModule } from 'ngx-cookieconsent'
 import { DatenschutzComponent } from './datenschutz/datenschutz.component'
 import { ImpressumComponent } from '../impressum/impressum.component'
+import { PartnerComponent } from './partner/partner.component'
 
 @NgModule({
   imports: [
@@ -70,6 +71,7 @@ import { ImpressumComponent } from '../impressum/impressum.component'
     DemoComponent,
     AllSectionsComponent,
     ReparaturauftragComponent,
+    PartnerComponent,
     DatenschutzComponent,
     ImpressumComponent
   ],

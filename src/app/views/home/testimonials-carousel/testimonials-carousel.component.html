@@ -14,22 +14,30 @@
       fxLayoutWrap="nowrap"
       fxLayoutGap="20px"
     >
-      <div fxFlex="70" fxLayoutAlign="center center">
+      <div fxFlex="50" fxLayoutAlign="center center">
         <img
           src="assets/images/microsoldering_new2.jpg"
           style="max-height: 100%; border-radius: 50%;"
         />
       </div>
-      <div fxFlex="30">
+      <div fxFlex="50">
         <mat-card class="p-0 m-0">
-          <mat-card-content>
+          <mat-card-content
+            style="padding-top: 20px; background-color: #333333; color: #ffffff; height: 300px"
+          >
             <h5>
-              <strong>Kostenlose Diagnose</strong>
+              <strong>Überzeugen Sie sich selbst!</strong>
             </h5>
             <p [innerHTML]="text2"></p>
-            <button mat-raised-button class="mat-accent">
-              Diagnose jetzt buchen
-            </button>
+            <a
+              href="https://www.youtube.com/channel/UC8ukd98bLffRrdVumyw6u2g"
+              target="_blank"
+            >
+              <img
+                src="assets/images/yt_logo_rgb_dark.png"
+                style="max-height: 50%;"
+              />
+            </a>
           </mat-card-content>
         </mat-card>
       </div>
@@ -44,7 +52,11 @@
       <div fxFlex="100">
         <ngu-carousel [inputs]="carouselOptions" [dataSource]="testimonials">
           <ngu-item NguCarouselItem *nguCarouselDef="let tm; let j = index">
-            <img class="company-logo" [src]="tm.logo" />
+            <img
+              class="company-logo"
+              [src]="tm.logo"
+              style="max-width: 350px; min-width: 350px; min-height: 200px; max-height: 200px;"
+            />
           </ngu-item>
 
           <button mat-fab NguCarouselPrev class="carousel-left">

@@ -14,29 +14,40 @@ export class TestimonialsCarouselComponent implements OnInit {
   public carouselOptions: NguCarouselConfig
   public testimonials = [
     {
-      logo: 'assets/images/microsoldering_carussel1.jpg',
-      photo: 'assets/images/face-1.jpg',
-      text: `“I’ve tried using different softwares. The computer is not my strong side. 
-    There is excellent support behind DevEgret and people to walk you through it. 
-    If you have any questions they’ll go over that and explain to you how to do that. ”`,
-      title: 'Jhone Doe',
-      subtitle: 'Product Manager'
+      logo: 'assets/images/microsoldering_carussel1.jpg'
     },
     {
-      logo: 'assets/images/microsoldering_carussel2.jpg',
-      photo: 'assets/images/face-2.jpg',
-      text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-      title: 'Adam Smith',
-      subtitle: 'CEO'
+      logo: 'assets/images/microsoldering_carussel2.jpg'
     },
     {
-      logo: 'assets/images/microsoldering_carussel3.jpg',
-      photo: 'assets/images/face-3.jpg',
-      text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
-    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
-      title: 'Jhone White',
-      subtitle: 'Software Engineer'
+      logo: 'assets/images/microsoldering_carussel3.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new2.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new3.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new4.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new5.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new6.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new7.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new8.jpg'
+    },
+    {
+      logo: 'assets/images/microsoldering_new9.jpg'
     }
   ]
   constructor (private resourceLoaderService: ResourceLoaderService) {}

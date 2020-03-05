@@ -9,7 +9,7 @@ export class ResourceLoaderService {
   getValue (key: string): string {
     let value = text_resources[key]
     if (Array.isArray(value)) {
-      return value.join('<br/>')
+      return value.join(' ')
     }
     return value
   }

@@ -13,7 +13,7 @@ import {
 
 const cookieConfig: NgcCookieConsentConfig = {
   cookie: {
-    domain: 'localhost'
+    domain: 'irepair-regensburg.de'
   },
   position: 'bottom-left',
   theme: 'classic',
@@ -47,7 +47,7 @@ const cookieConfig: NgcCookieConsentConfig = {
     BrowserAnimationsModule,
     HomeModule,
     SharedModule,
-    RouterModule.forRoot(rootRouterConfig, { useHash: false }),
+    RouterModule.forRoot(rootRouterConfig, { useHash: true }),
     NgcCookieConsentModule.forRoot(cookieConfig)
   ],
   declarations: [AppComponent],

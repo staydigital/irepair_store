@@ -10,6 +10,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core'
       <app-testimonials-carousel></app-testimonials-carousel>
       <app-cta></app-cta>
       <app-reparaturauftrag></app-reparaturauftrag>
+      <app-partner></app-partner>
       <app-footer></app-footer>
     </div>
   `
